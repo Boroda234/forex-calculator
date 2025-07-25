@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Форекс калькулятор позиции и риска для трейдеров"
+    />
+    <meta
+      name="keywords"
+      content="форекс, калькулятор, риск-менеджмент, трейдинг, позиция"
+    />
+    <meta name="author" content="Forex Risk Calculator" />
+
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Форекс Калькулятор Позиции и Риска" />
+    <meta
+      property="og:description"
+      content="Профессиональный калькулятор для расчета размера позиции и управления рисками в форекс торговле"
+    />
+    <meta property="og:type" content="website" />
+
+    <title>Форекс Калькулятор - Управление Рисками</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "forex-blue": "#1e40af",
+              "forex-green": "#16a34a",
+              "forex-red": "#dc2626",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <div
+        style="
+          text-align: center;
+          padding: 50px;
+          font-family: Arial, sans-serif;
+        "
+      >
+        <h1>JavaScript Required</h1>
+        <p>
+          Для работы Форекс Калькулятора необходимо включить JavaScript в вашем
+          браузере.
+        </p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
